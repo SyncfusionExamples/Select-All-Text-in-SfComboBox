@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:CustomRenderer;assembly=CustomRenderer"
+    xmlns:comboBox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
+    x:Class="CustomRenderer.MainPageXaml">
+
+    <ContentPage.BindingContext>
+        <local:EmployeeViewModel/>
+    </ContentPage.BindingContext>
+
+    <StackLayout VerticalOptions="Start" HorizontalOptions="Start" Padding="30">
+        <local:CustomComboBox HeightRequest="40" x:Name="comboBox" IsEditableMode="True"
+                             DataSource="{Binding EmployeeCollection}"
+                             ComboBoxMode="Suggest"
+                             DisplayMemberPath="Name">
+        </local:CustomComboBox>
+    </StackLayout>
+
+</ContentPage>
