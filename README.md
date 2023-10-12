@@ -35,8 +35,8 @@ Then initialize an empty combobox as shown in the following code,
 
 ```
 <StackLayout VerticalOptions="Start" HorizontalOptions="Start" Padding="30">
-		<combobox:SfComboBox HeightRequest="40" x:Name="comboBox"/>
-	</StackLayout>
+	<combobox:SfComboBox HeightRequest="40" x:Name="comboBox"/>
+</StackLayout>
 ```
 
 **[C#]**
