@@ -1,17 +1,17 @@
 # Select-All-Text-in-SfComboBox
 
-# Adding SfComboBox reference
+## Adding SfComboBox reference
 You can add SfComboBox reference using one of the following methods:
 
-## Method 1: Adding SfComboBox reference from nuget.org
+### Method 1: Adding SfComboBox reference from nuget.org
 
 Syncfusion Xamarin components are available in nuget.org. To add SfComboBox to your project, open the NuGet package manager in Visual Studio, search for Syncfusion.Xamarin.SfComboBox, and then install it.
 
-## Method 2: Adding SfComboBox reference from toolbox
+### Method 2: Adding SfComboBox reference from toolbox
 
 Syncfusion also provides Xamarin Toolbox. Using this toolbox, you can drag the SfComboBox control to the XAML page. It will automatically install the required NuGet packages and add the namespace to the page. To install Syncfusion Xamarin Toolbox, refer to Toolbox.
 
-## Method 3: Adding SfComboBox assemblies manually from the installed location
+### Method 3: Adding SfComboBox assemblies manually from the installed location
 
 If you prefer to manually reference the assemblies instead referencing from NuGet, add the following assemblies in respective projects.
 
@@ -45,7 +45,7 @@ Then initialize an empty combobox as shown in the following code,
 SfComboBox comboBox = new SfComboBox();
 comboBox.HeightRequest = 40;
 ```
-# Select text on focus
+## Select text on focus
 The SelectAllOnFocus property specifies whether the text should be selected when the input field is focused.
 
 **[XAML]**
